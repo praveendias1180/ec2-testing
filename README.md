@@ -29,3 +29,17 @@ sudo yum install git
 
 git --version
 ```
+
+# SSH Config
+
+```
+ssh-keygen -t ed25519 -C "praveendias1180@gmail.com"
+
+ls -al ~/.ssh
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_ed25519
+```
+
+![Keygen](keygen.png)
