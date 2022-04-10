@@ -43,3 +43,16 @@ ssh-add ~/.ssh/id_ed25519
 ```
 
 ![Keygen](keygen.png)
+
+# Download and Add to Github
+
+```
+scp -i "aws-ec2.pem" ec2-user@ec2-3-141-8-44.us-east-2.compute.amazonaws.com:/home/ec2-user/.ssh/id_ed25519.pub /home/praveen/ec2
+
+cat id_ed25519.pub
+```
+## Clone the repo, finally.
+
+```
+git clone git@github.com:praveendias1180/YOUR_REPO.git
+```
