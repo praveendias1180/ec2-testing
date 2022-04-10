@@ -72,3 +72,11 @@ sudo lsof -i -P -n | grep LISTEN
 ```
 ![ports](ports.png)
 
+# Open Ports
+
+![Inbound](inbound.png)
+
+# The Service is now READY!
+
+## http://2.151.8.74:3000/login
+
