@@ -8,7 +8,7 @@
 
 ![Connected](connected.png)
 
-# Install
+# Install NVM
 
 ```
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
@@ -20,4 +20,12 @@ nvm install lts/*
 node -v
 
 npm -v
+```
+
+# Install Git
+
+```
+sudo yum install git
+
+git --version
 ```
