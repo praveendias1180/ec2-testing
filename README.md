@@ -62,4 +62,13 @@ git clone git@github.com:praveendias1180/YOUR_REPO.git
 ```
 npm install -g serve
 npm install -g pm2
+
 ```
+
+# Check Open Ports
+
+```
+sudo lsof -i -P -n | grep LISTEN
+```
+![ports](ports.png)
+
