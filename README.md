@@ -56,3 +56,10 @@ cat id_ed25519.pub
 ```
 git clone git@github.com:praveendias1180/YOUR_REPO.git
 ```
+
+# Bonus Packages
+
+```
+npm install -g serve
+npm install -g pm2
+```
